@@ -21,14 +21,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
   background-color: black;
-  gap: 5px 0;
   opacity: 0.85;
   box-shadow: rgba(0, 0, 0, 1) 0 10px 50px;
-  width: 400px;
-  height: 800px;
-  padding: 10px 5px;
+  height: 700px;
+  padding: 15px;
   border-radius: 15px;
 }
 
@@ -55,7 +54,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   margin: 2rem 0 1rem 0;
 }
 
@@ -75,11 +74,11 @@ button {
 }
 #anterior,
 #proximo {
-  font-size: 4rem;
+  font-size: 60px;
 }
 
 #play-pause {
-  font-size: 5rem;
+  font-size: 90px;
 }
 
 #container-botoes {
